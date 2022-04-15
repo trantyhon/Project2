@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.padding-page {
+  padding: 0 1rem;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.nav-fixed {
+  height: 68px;
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.nav-fixed .container-nav {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav-fixed .container-nav .top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.616);
+  padding-bottom: 6px;
+  width: 100%;
+}
+
+.nav-fixed .container-nav .logo-bard svg {
+  width: 155px;
+  height: 36px;
+}
+
+.nav-fixed .container-nav .mtu-e-icon__icon {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-fixed .container-nav .mtu-e-icon__icon svg {
+  width: 27px;
+  height: 44px;
+}
+
+.nav-fixed .nav-right .nav-bars-btn {
+  margin-right: 20px;
+  color: #10069f;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.nav-bars:hover .bar1,
+.bar2,
+.bar3 {
+  background-color: #006dff;
+}
+
+.nav-bars:hover .bar2 {
+  background-color: #006dff;
+}
+
+.nav-bars:hover .bar3 {
+  background-color: #006dff;
+}
+
+.nav-fixed .container-nav .nav-right {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.nav-bars {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 20px;
+  height: 2px;
+  background-color: #10069f;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(8px, 8px);
+  transform: rotate(45deg) translate(-1px, 2px);
+}
+
+.nav-fixed .container-nav .search {
+  margin-top: 6px;
+  position: relative;
+}
+
+.nav-fixed .container-nav .search input {
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  opacity: 0.5;
+}
+
+.nav-fixed .container-nav .search input:focus {
+  outline: none !important;
+}
+
+.nav-fixed .search input:focus ~ i {
+  color: #4f98ff !important;
+  opacity: 1;
+}
+
+.nav-fixed .search i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.nav-fixed .search i:hover {
+  color: #4f98ff;
+  opacity: 1;
+}
+
+.nav-fixed .search i:focus {
+}
