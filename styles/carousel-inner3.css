@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.padding-page {
+  padding: 0 1rem;
+}
+
+html,
+body {
+  font-size: 16px;
+}
+
+/* carousel */
+#carousel-inner-page .content-inner3 {
+  background-color: #10069f;
+  padding: 0px 1rem;
+}
+
+#carousel-inner-page .container-content-carousel-inner3 {
+  text-align: left;
+  padding: 18px 0px;
+  margin: 0 auto;
+}
+
+#carousel-inner-page .container-content-carousel-inner3 span {
+  color: white;
+  background: #006dff;
+  align-items: center;
+  border-radius: 2px;
+  min-height: 16px;
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 12px;
+  padding: 2px 4px;
+}
+
+#carousel-inner-page .container-content-carousel-inner3 h2 {
+  font-size: 28px !important;
+  text-transform: uppercase;
+  line-height: 32px !important;
+  color: white;
+  font-weight: bold;
+  width: 100% !important;
+  margin-top: 12px;
+}
+
+#carousel-inner-page
+  .container-content-carousel-inner3
+  .p-carousel-text-content {
+  font-size: 16px;
+  color: white;
+  line-height: 24px;
+  margin-top: 28px;
+  font-weight: 400;
+  padding-right: 13px;
+}
+
+#carousel-inner-page
+  .container-content-carousel-inner3
+  .p-carousel-text-content
+  .mtu {
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: none;
+}
+
+#carousel-inner-page .container-content-carousel-inner3 .p-carousel-addres {
+  color: white;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 28px;
+  padding-right: 13px;
+}
+
+#carousel-inner-page
+  .container-content-carousel-inner3
+  .p-carousel-addres
+  .addres {
+  background-color: transparent;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: none;
+}
+
+#carousel-inner-page .container-content-carousel-inner3 p span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* map */
+
+#map-content-inner3 {
+  padding: 60px 0;
+}
+
+#map-content-inner3 .map-content-inner3-container {
+  max-width: 567px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#map-content-inner3 .list-content-inner3 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
