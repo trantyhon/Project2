@@ -679,7 +679,6 @@ hr {
 
 #cta .cta-bg {
   position: absolute;
-  transition: all 0.5s;
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(16, 6, 159, 0), #10069f 240px, #10069f);
@@ -695,16 +694,6 @@ hr {
   max-width: 576px;
   width: 100%;
   margin: 0 auto;
-}
-
-#connect .connect-header {
-  margin-bottom: 60px;
-}
-
-#connect .connect-header h2 {
-  font-size: 28px;
-  line-height: 32px;
-  font-weight: bold;
 }
 
 #connect .list-card-connect {

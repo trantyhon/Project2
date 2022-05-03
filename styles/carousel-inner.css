@@ -38,7 +38,7 @@ body {
   right: unset;
   bottom: 0;
   top: unset;
-  margin-left: 12%;
+  margin-left: 5%;
 }
 
 #carousel-inner-page #demo .carousel-indicators li {
@@ -191,7 +191,6 @@ body {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   row-gap: 90px;
-  margin-top: 60px;
 }
 
 #content-inner1 .list-item-inner1 .item-inner1 {
