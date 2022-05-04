@@ -51,3 +51,18 @@ function myFunction(x) {
     // }
     // if(x.target.closest(".menu-mega-mobile"))
 }
+
+
+let navbar = document.querySelector(".nav-fixed");
+let scrollPrevious = window.pageYOffset;
+window.onscroll = function () {
+    let scrollCurrent = window.pageYOffset;
+    if (scrollPrevious < scrollCurrent) {
+        navbar.classList.add("slicky");
+    }
+    else {
+        navbar.classList.remove("slicky");
+    }
+
+    scrollPrevious = scrollCurrent;
+}

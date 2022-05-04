@@ -605,10 +605,6 @@ body {
   row-gap: 30px;
 }
 
-#latest-inner1 .latest-bottom .card-latest {
-  background-color: white;
-}
-
 #latest-inner1 .card-latest-img {
   position: relative;
 }
