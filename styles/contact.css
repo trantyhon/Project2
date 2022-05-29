@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.padding-page {
+  padding: 0 1rem;
+}
+
+html,
+body {
+  font-size: 16px;
+}
+
+#contact-main #content-inner1 {
+  background-color: #f5f5fa;
+  padding: 90px 0;
+}
+
+#contact-main #content-inner1 .text-item-inner1 .text-item-inner1-body {
+  font-size: 13px;
+}
+
+#contact-main #content-inner1 .text-item-inner1 .text-item-inner1-body span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* 
+ */
+
+#from-info {
+  padding: 60px 0;
+}
+
+#from-info .container-from-info {
+  max-width: 576px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#from-info .container-from-info .from-info-option {
+  border: 1px solid #efeff4;
+  border-radius: 2px;
+  padding: 22px;
+  box-shadow: 0 2px 4px rgb(225 225 230 / 40%);
+}
+
+#from-info .container-from-info .from-info-option h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+#contact-main .op-info {
+  border-bottom: 1px solid #efeff4;
+  margin-bottom: 30px;
+}
+
+#contact-main .op-select .group-op {
+  margin-bottom: 20px;
+}
+
+#contact-main .op-select .group-op h3 {
+  font-size: 12px;
+}
+
+#contact-main .sao {
+  color: blue;
+}
+
+#contact-main #from-info .salutation h3 {
+  font-size: 12px;
+}
+
+#contact-main #from-info .salutation {
+  margin-bottom: 20px;
+}
+
+#contact-main #from-info .from-name h3 {
+  font-size: 12px;
+}
+
+#contact-main #from-info .from-name input {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #e1e1e6;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+#contact-main #from-info .from-name .message {
+  padding-bottom: 150px;
+}
+
+#contact-main #from-info .text-from-p p {
+  font-size: 12px;
+  opacity: 0.8;
+  margin: 20px 0;
+}
+
+#contact-main #from-info .text-from-p p a {
+  color: #4f98ff;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#contact-main #from-info .text-from-p p a:hover {
+  color: #006dff;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#contact-main #from-info .button-from {
+  background: #10069f;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#contact-main #from-info .button-from:hover {
+  background: #006dff;
+}
+
+#from-info .adr-lh {
+  margin-top: 60px;
+}
+
+#from-info .adr-lh p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+#from-info .top-lh {
+  margin-bottom: 20px;
+}
+
+#from-info .group-adr h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#from-info .group-adr {
+  margin-bottom: 20px;
+}

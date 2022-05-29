@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.padding-page {
+  padding: 0 1rem;
+}
+
+html,
+body {
+  font-size: 16px;
+}
+
+#carousel-inner-page .content-inner2 .power span {
+  background-color: #006dff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#carousel-inner-page .content-inner2 .power {
+  margin: 0;
+}
+
+#carousel-inner-page .content-inner2 .h-carousel-about {
+  margin: 20px 0;
+}
+
+#carousel-inner-page .content-inner2 .text-carousel-about {
+  margin-top: 0;
+}
+
+/* about-text-sect */
+
+#about-text-sect {
+  padding: 60px 0;
+}
+
+#about-text-sect .container-about-text-sect {
+  max-width: 576px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#about-text-sect span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#about-text-sect h3 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#about-text-sect .text-about-sect-p {
+  padding: 30px 0;
+}
+
+/* about-provider */
+
+#about-provider {
+  background-color: #f5f5fa;
+  padding: 60px 0;
+}
+
+#about-provider .container-about-provider {
+  max-width: 576px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#about-provider .container-about-provider h2 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#about-provider .text-provider p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#about-provider .text-provider p span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#main-about #configurator .configurator-text h3 {
+  font-size: 24px;
+}

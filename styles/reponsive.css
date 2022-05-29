@@ -362,6 +362,32 @@
   }
 }
 @media (min-width: 576px) {
+  #from-info .container-from-info {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #option-selected .container-op {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* about-provider */
+  #about-provider .container-about-provider {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* about-sect */
+  #about-text-sect .container-about-text-sect {
+    max-width: 768px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
   #carousel {
     max-width: 768px;
     width: 100%;
@@ -569,6 +595,159 @@
 }
 
 @media (min-width: 768px) {
+  #contact-main #from-info .grid-info {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    column-gap: 30px;
+  }
+
+  #from-info .container-from-info {
+    max-width: 991px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #option-selected .container-op {
+    max-width: 991px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .collapsible2 {
+    display: none;
+  }
+
+  #main-new-media .content2 .header-topic {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #main-new-media .content2 .header-topic .fiter h3 {
+    color: white;
+    font-size: 20px;
+  }
+
+  #main-new-media .content2 .header-topic .reset2 {
+    margin-top: 30px;
+    color: white;
+    font-size: 14px;
+  }
+
+  #main-new-media .content2 .header-topic .reset2 i {
+    color: #006dff;
+  }
+
+  #main-new-media .content2 {
+    padding: 2rem 1rem;
+    max-height: 100%;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #10069f;
+  }
+
+  #main-new-media .content2 .reset {
+    display: none;
+  }
+
+  #contact-main .op-select {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 100%;
+  }
+
+  #contact-main .group-op {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    color: black;
+    align-items: center;
+  }
+
+  #contact-main .salutation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    align-items: center;
+  }
+
+  #contact-main .gird-from-name {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    align-items: center;
+  }
+
+  #contact-main .text-from-p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    align-items: center;
+  }
+
+  #contact-main .grid-button {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    align-items: center;
+  }
+
+  #contact-main .grid-button .button-from {
+    width: 40% !important;
+  }
+
+  .op-select {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    height: 100%;
+  }
+
+  .group-op.height {
+    height: 100%;
+    overflow: inherit;
+  }
+
+  /* note */
+  #note .container-note {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #note .button-note .btn-note-content {
+    width: 30%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* about-provider */
+  #about-provider .container-about-provider {
+    max-width: 991px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #about-provider .grid-about-provider {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  /* about-sect */
+  #about-text-sect .container-about-text-sect {
+    max-width: 991px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  #about-text-sect .grid-text-sect {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+  }
+
   #carousel {
     max-width: 991px;
     width: 100%;
@@ -1186,6 +1365,53 @@
 }
 
 @media (min-width: 991px) {
+  #from-info .container-from-info {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .op-select {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    width: 80%;
+    height: 100%;
+  }
+
+  #option-selected .container-op {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* note */
+  #note .container-note {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #note .button-note .btn-note-content {
+    width: 20%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* about-provider */
+  #about-provider .container-about-provider {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* about-sect */
+  #about-text-sect .container-about-text-sect {
+    max-width: 1110px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
   #carousel {
     max-width: 1280px;
     width: 100%;

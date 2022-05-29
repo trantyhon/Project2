@@ -66,3 +66,11 @@ window.onscroll = function () {
 
     scrollPrevious = scrollCurrent;
 }
+
+
+const closeNote = document.querySelector(".btn-close-note");
+
+closeNote.addEventListener("click", () => {
+    document.querySelector(".box-note").style.display = "none";
+})
+
